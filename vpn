@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-30 18:43:50
+# 创建时间：2024-08-30 18:45:33
 # 使用模版：ACL4SSR.ini
-# 节点数量：45
+# 节点数量：41
 # 节点类型：vless
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -87,51 +87,47 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"sky.xie18418.workers.dev_1","type":"vless","server":"172.67.148.122","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_2","type":"vless","server":"172.64.133.95","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_3","type":"vless","server":"172.67.126.71","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_4","type":"vless","server":"172.64.107.179","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_5","type":"vless","server":"172.67.196.198","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_6","type":"vless","server":"172.67.218.96","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_7","type":"vless","server":"172.67.179.196","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_8","type":"vless","server":"172.67.157.146","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_9","type":"vless","server":"172.67.156.59","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_10","type":"vless","server":"172.67.156.204","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_11","type":"vless","server":"172.67.204.187","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_12","type":"vless","server":"172.67.94.39","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_13","type":"vless","server":"162.159.250.93","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_14","type":"vless","server":"172.64.85.58","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_15","type":"vless","server":"172.67.238.62","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_16","type":"vless","server":"198.41.223.144","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_17","type":"vless","server":"172.64.169.251","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_18","type":"vless","server":"104.16.92.198","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_19","type":"vless","server":"162.159.128.255","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_1","type":"vless","server":"172.64.133.95","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_2","type":"vless","server":"172.67.126.71","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_3","type":"vless","server":"172.64.107.179","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_4","type":"vless","server":"172.67.196.198","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_5","type":"vless","server":"172.67.218.96","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_6","type":"vless","server":"172.67.157.146","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_7","type":"vless","server":"172.67.156.59","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_8","type":"vless","server":"172.67.156.204","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_9","type":"vless","server":"172.67.94.39","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_10","type":"vless","server":"162.159.250.93","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_11","type":"vless","server":"172.64.85.58","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_12","type":"vless","server":"172.67.238.62","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_13","type":"vless","server":"198.41.223.144","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_14","type":"vless","server":"172.64.169.251","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_15","type":"vless","server":"104.16.92.198","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_16","type":"vless","server":"162.159.128.255","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_17","type":"vless","server":"172.67.67.223","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_18","type":"vless","server":"162.159.128.255","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_19","type":"vless","server":"198.41.222.71","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"sky.xie18418.workers.dev_20","type":"vless","server":"172.67.67.223","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_21","type":"vless","server":"162.159.128.255","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_22","type":"vless","server":"198.41.222.71","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_23","type":"vless","server":"172.67.67.223","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_24","type":"vless","server":"162.159.194.142","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_25","type":"vless","server":"173.245.49.249","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_26","type":"vless","server":"198.41.211.222","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_27","type":"vless","server":"104.19.16.52","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_28","type":"vless","server":"104.17.255.131","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_29","type":"vless","server":"172.64.169.118","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_30","type":"vless","server":"104.17.157.120","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_31","type":"vless","server":"172.67.176.248","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_32","type":"vless","server":"172.67.70.40","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_33","type":"vless","server":"172.67.208.126","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_34","type":"vless","server":"172.67.155.118","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_35","type":"vless","server":"162.159.129.159","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_36","type":"vless","server":"162.159.252.52","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_37","type":"vless","server":"172.67.93.151","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_38","type":"vless","server":"172.64.95.155","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_39","type":"vless","server":"162.159.129.159","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_40","type":"vless","server":"162.159.246.80","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_41","type":"vless","server":"172.64.173.26","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_42","type":"vless","server":"172.67.166.9","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_43","type":"vless","server":"172.67.213.227","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_44","type":"vless","server":"172.67.65.41","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sky.xie18418.workers.dev_45","type":"vless","server":"104.19.104.207","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_21","type":"vless","server":"162.159.194.142","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_22","type":"vless","server":"173.245.49.249","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_23","type":"vless","server":"198.41.211.222","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_24","type":"vless","server":"104.19.16.52","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_25","type":"vless","server":"104.17.255.131","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_26","type":"vless","server":"172.64.169.118","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_27","type":"vless","server":"104.17.157.120","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_28","type":"vless","server":"172.67.176.248","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_29","type":"vless","server":"172.67.70.40","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_30","type":"vless","server":"172.67.208.126","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_31","type":"vless","server":"172.67.155.118","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_32","type":"vless","server":"162.159.129.159","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_33","type":"vless","server":"162.159.252.52","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_34","type":"vless","server":"172.67.93.151","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_35","type":"vless","server":"172.64.95.155","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_36","type":"vless","server":"162.159.129.159","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_37","type":"vless","server":"162.159.246.80","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_38","type":"vless","server":"172.64.173.26","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_39","type":"vless","server":"172.67.166.9","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_40","type":"vless","server":"172.67.65.41","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sky.xie18418.workers.dev_41","type":"vless","server":"104.19.104.207","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"sky.xie18418.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sky.xie18418.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -179,10 +175,6 @@ proxy-groups:
       - sky.xie18418.workers.dev_39
       - sky.xie18418.workers.dev_40
       - sky.xie18418.workers.dev_41
-      - sky.xie18418.workers.dev_42
-      - sky.xie18418.workers.dev_43
-      - sky.xie18418.workers.dev_44
-      - sky.xie18418.workers.dev_45
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -230,10 +222,6 @@ proxy-groups:
       - sky.xie18418.workers.dev_39
       - sky.xie18418.workers.dev_40
       - sky.xie18418.workers.dev_41
-      - sky.xie18418.workers.dev_42
-      - sky.xie18418.workers.dev_43
-      - sky.xie18418.workers.dev_44
-      - sky.xie18418.workers.dev_45
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -281,10 +269,6 @@ proxy-groups:
       - sky.xie18418.workers.dev_39
       - sky.xie18418.workers.dev_40
       - sky.xie18418.workers.dev_41
-      - sky.xie18418.workers.dev_42
-      - sky.xie18418.workers.dev_43
-      - sky.xie18418.workers.dev_44
-      - sky.xie18418.workers.dev_45
   - name: 📲 电报信息
     type: select
     proxies:
@@ -331,10 +315,6 @@ proxy-groups:
       - sky.xie18418.workers.dev_39
       - sky.xie18418.workers.dev_40
       - sky.xie18418.workers.dev_41
-      - sky.xie18418.workers.dev_42
-      - sky.xie18418.workers.dev_43
-      - sky.xie18418.workers.dev_44
-      - sky.xie18418.workers.dev_45
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -381,10 +361,6 @@ proxy-groups:
       - sky.xie18418.workers.dev_39
       - sky.xie18418.workers.dev_40
       - sky.xie18418.workers.dev_41
-      - sky.xie18418.workers.dev_42
-      - sky.xie18418.workers.dev_43
-      - sky.xie18418.workers.dev_44
-      - sky.xie18418.workers.dev_45
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -431,10 +407,6 @@ proxy-groups:
       - sky.xie18418.workers.dev_39
       - sky.xie18418.workers.dev_40
       - sky.xie18418.workers.dev_41
-      - sky.xie18418.workers.dev_42
-      - sky.xie18418.workers.dev_43
-      - sky.xie18418.workers.dev_44
-      - sky.xie18418.workers.dev_45
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -498,10 +470,6 @@ proxy-groups:
       - sky.xie18418.workers.dev_39
       - sky.xie18418.workers.dev_40
       - sky.xie18418.workers.dev_41
-      - sky.xie18418.workers.dev_42
-      - sky.xie18418.workers.dev_43
-      - sky.xie18418.workers.dev_44
-      - sky.xie18418.workers.dev_45
 
 rules:
 # 本地/局域网地址
