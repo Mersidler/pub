@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-11 10:37:29
+# 生成时间：2024-10-11 10:41:27
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,37 +58,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: edtunnel-4kz.pages.dev
-    port: 443
-    server: 172.67.2.107
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edtunnel-4kz.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: edtunnel-4kz.pages.dev
-    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
-    client-fingerprint: randomized
-  - name: KR-Seoul-ICN 1
-    port: 443
-    server: 132.145.95.91
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edtunnel-4kz.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edtunnel-4kz.pages.dev
-    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
-    client-fingerprint: random
-  - name: US-San Jose-SJC 3
+  - name: 优选节点_1
     port: 443
     server: 129.159.34.122
     type: vless
@@ -103,9 +73,234 @@ proxies:
         host: edtunnel-4kz.pages.dev
     uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
     client-fingerprint: random
-  - name: DE-Frankfurt-FRA 6
+  - name: 优选节点_2
     port: 443
     server: 141.147.33.155
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_3
+    port: 443
+    server: 172.67.2.107
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_4
+    port: 443
+    server: 172.67.49.46
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_5
+    port: 443
+    server: 172.67.247.180
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_6
+    port: 443
+    server: 172.67.29.122
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_7
+    port: 443
+    server: 172.67.238.27
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_8
+    port: 443
+    server: 172.67.239.48
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_9
+    port: 443
+    server: 172.64.87.48
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_10
+    port: 443
+    server: 162.159.243.44
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_11
+    port: 443
+    server: 172.67.224.41
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_12
+    port: 443
+    server: 172.64.167.105
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_13
+    port: 443
+    server: 104.19.0.83
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_14
+    port: 443
+    server: 104.19.244.121
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_15
+    port: 443
+    server: 162.159.244.252
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_16
+    port: 443
+    server: 104.19.110.89
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: 优选节点_17
+    port: 443
+    server: 172.64.160.206
     type: vless
     network: ws
     tls: true
@@ -124,57 +319,135 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - edtunnel-4kz.pages.dev
-      - KR-Seoul-ICN 1
-      - US-San Jose-SJC 3
-      - DE-Frankfurt-FRA 6
+      - 优选节点_1
+      - 优选节点_2
+      - 优选节点_3
+      - 优选节点_4
+      - 优选节点_5
+      - 优选节点_6
+      - 优选节点_7
+      - 优选节点_8
+      - 优选节点_9
+      - 优选节点_10
+      - 优选节点_11
+      - 优选节点_12
+      - 优选节点_13
+      - 优选节点_14
+      - 优选节点_15
+      - 优选节点_16
+      - 优选节点_17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - edtunnel-4kz.pages.dev
-      - KR-Seoul-ICN 1
-      - US-San Jose-SJC 3
-      - DE-Frankfurt-FRA 6
+      - 优选节点_1
+      - 优选节点_2
+      - 优选节点_3
+      - 优选节点_4
+      - 优选节点_5
+      - 优选节点_6
+      - 优选节点_7
+      - 优选节点_8
+      - 优选节点_9
+      - 优选节点_10
+      - 优选节点_11
+      - 优选节点_12
+      - 优选节点_13
+      - 优选节点_14
+      - 优选节点_15
+      - 优选节点_16
+      - 优选节点_17
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - edtunnel-4kz.pages.dev
-      - KR-Seoul-ICN 1
-      - US-San Jose-SJC 3
-      - DE-Frankfurt-FRA 6
+      - 优选节点_1
+      - 优选节点_2
+      - 优选节点_3
+      - 优选节点_4
+      - 优选节点_5
+      - 优选节点_6
+      - 优选节点_7
+      - 优选节点_8
+      - 优选节点_9
+      - 优选节点_10
+      - 优选节点_11
+      - 优选节点_12
+      - 优选节点_13
+      - 优选节点_14
+      - 优选节点_15
+      - 优选节点_16
+      - 优选节点_17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - edtunnel-4kz.pages.dev
-      - KR-Seoul-ICN 1
-      - US-San Jose-SJC 3
-      - DE-Frankfurt-FRA 6
+      - 优选节点_1
+      - 优选节点_2
+      - 优选节点_3
+      - 优选节点_4
+      - 优选节点_5
+      - 优选节点_6
+      - 优选节点_7
+      - 优选节点_8
+      - 优选节点_9
+      - 优选节点_10
+      - 优选节点_11
+      - 优选节点_12
+      - 优选节点_13
+      - 优选节点_14
+      - 优选节点_15
+      - 优选节点_16
+      - 优选节点_17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - edtunnel-4kz.pages.dev
-      - KR-Seoul-ICN 1
-      - US-San Jose-SJC 3
-      - DE-Frankfurt-FRA 6
+      - 优选节点_1
+      - 优选节点_2
+      - 优选节点_3
+      - 优选节点_4
+      - 优选节点_5
+      - 优选节点_6
+      - 优选节点_7
+      - 优选节点_8
+      - 优选节点_9
+      - 优选节点_10
+      - 优选节点_11
+      - 优选节点_12
+      - 优选节点_13
+      - 优选节点_14
+      - 优选节点_15
+      - 优选节点_16
+      - 优选节点_17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - edtunnel-4kz.pages.dev
-      - KR-Seoul-ICN 1
-      - US-San Jose-SJC 3
-      - DE-Frankfurt-FRA 6
+      - 优选节点_1
+      - 优选节点_2
+      - 优选节点_3
+      - 优选节点_4
+      - 优选节点_5
+      - 优选节点_6
+      - 优选节点_7
+      - 优选节点_8
+      - 优选节点_9
+      - 优选节点_10
+      - 优选节点_11
+      - 优选节点_12
+      - 优选节点_13
+      - 优选节点_14
+      - 优选节点_15
+      - 优选节点_16
+      - 优选节点_17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -197,10 +470,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - edtunnel-4kz.pages.dev
-      - KR-Seoul-ICN 1
-      - US-San Jose-SJC 3
-      - DE-Frankfurt-FRA 6
+      - 优选节点_1
+      - 优选节点_2
+      - 优选节点_3
+      - 优选节点_4
+      - 优选节点_5
+      - 优选节点_6
+      - 优选节点_7
+      - 优选节点_8
+      - 优选节点_9
+      - 优选节点_10
+      - 优选节点_11
+      - 优选节点_12
+      - 优选节点_13
+      - 优选节点_14
+      - 优选节点_15
+      - 优选节点_16
+      - 优选节点_17
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
