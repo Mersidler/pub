@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-11 10:33:08
+# 生成时间：2024-10-11 10:36:16
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -57,41 +57,124 @@ tun:
     - 8.8.4.4
     - 1.1.1.1
     - 1.0.0.1
-proxies: []
+proxies:
+  - name: edtunnel-4kz.pages.dev
+    port: 443
+    server: 172.67.2.107
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: randomized
+  - name: KR-Seoul-ICN 1
+    port: 443
+    server: 132.145.95.91
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: US-San Jose-SJC 3
+    port: 443
+    server: 129.159.34.122
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
+  - name: DE-Frankfurt-FRA 6
+    port: 443
+    server: 141.147.33.155
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: edtunnel-4kz.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: edtunnel-4kz.pages.dev
+    uuid: 86aeaa6b-2774-42d4-9e6f-1cad143c4ef6
+    client-fingerprint: random
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - edtunnel-4kz.pages.dev
+      - KR-Seoul-ICN 1
+      - US-San Jose-SJC 3
+      - DE-Frankfurt-FRA 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - edtunnel-4kz.pages.dev
+      - KR-Seoul-ICN 1
+      - US-San Jose-SJC 3
+      - DE-Frankfurt-FRA 6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - edtunnel-4kz.pages.dev
+      - KR-Seoul-ICN 1
+      - US-San Jose-SJC 3
+      - DE-Frankfurt-FRA 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - edtunnel-4kz.pages.dev
+      - KR-Seoul-ICN 1
+      - US-San Jose-SJC 3
+      - DE-Frankfurt-FRA 6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - edtunnel-4kz.pages.dev
+      - KR-Seoul-ICN 1
+      - US-San Jose-SJC 3
+      - DE-Frankfurt-FRA 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - edtunnel-4kz.pages.dev
+      - KR-Seoul-ICN 1
+      - US-San Jose-SJC 3
+      - DE-Frankfurt-FRA 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,6 +197,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - edtunnel-4kz.pages.dev
+      - KR-Seoul-ICN 1
+      - US-San Jose-SJC 3
+      - DE-Frankfurt-FRA 6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
