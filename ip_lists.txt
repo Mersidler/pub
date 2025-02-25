@@ -1,1 +1,1 @@
-ip
+https://raw.githubusercontent.com/Mersidler/pub/refs/heads/main/ip.txt
